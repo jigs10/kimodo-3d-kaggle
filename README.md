@@ -12,8 +12,6 @@ Generate human motion from text prompts using NVIDIA's Kimodo and visualize the 
 6. Verifies PyTorch, CUDA, and GPU availability.
 7. Generates a human motion sequence from a text prompt.
 8. Converts the generated NPZ file to BVH.
-9. Installs Soma Viser and copies the BVH motion file.
-10. Launches Soma Viser through a Cloudflare Tunnel.
 
 ## Requirements
 
@@ -46,7 +44,7 @@ To generate a different motion, update the prompt and output name in the generat
 
 ## Viewing the Motion
 
-The notebook launches Soma Viser on port `8090` and starts a temporary Cloudflare Tunnel. Open the public tunnel URL printed by the final cell to access the viewer.
+The generated BVH file can be downloaded from Kaggle and opened in a desktop BVH viewer such as Blender or BVHView.
 
 ## Notes
 
